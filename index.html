@@ -20,19 +20,49 @@
 
 <body>
 
-    <div class="container-md heading">
-        <h1>Remi Banjoko</h1>
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light ">
+        <a class="navbar-brand" href="#home-anchor">
+            <!-- <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="d-inline-block align-top" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16" aria-label="Tools">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg>
+            MedlyCo.
+        </a>
+        <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link " href="#home-anchor">Home</a>
+                <a class="nav-item nav-link " href="#about_me-anchor">About Me</a>
+                <a class="nav-item nav-link " href="#work-anchor">Work</a>
+                <a class="nav-item nav-link " href="#contact-anchor">Contact</a>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <div id ="home-anchor" style="position:relative; top: -150px"> </div>
+    
+
+    <div class="container-md heading" id="home">
+        <h1 >Remi Banjoko</h1>
 
         <div class="progress">
             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
         </div>
+        <p>I'm A Giant Work In Progress</p>
+
     </div>
 
+    <div id ="about_me-anchor" style="position:relative; top: -150px"> </div>
+    <div class="container-md left" id="about_me">
 
-    <div class="container-md left">
-
-        <h2> WHO<br>I AM</h2>
-        <p>I am an accomplished developer that has struggled throuhg many trials and tribulations to get here, i am literally bleeding as I type this but 
+        <h3 class="display-2"> WHO<br>I AM</h3>
+        <p class="block-text">I am an accomplished developer that has struggled throuhg many trials and tribulations to get here, i am literally bleeding as I type this but 
             I will push on because at the end of the day the work comes first. :)
         </p>
 
@@ -41,21 +71,22 @@
 
     <div class="container-md right">
 
-        <p>I am an accomplished developer that has struggled throuhg many trials and tribulations to get here, i am literally bleeding as I type this but 
-            I will push on because at the end of the day the work comes first. :)
+        <p class="block-text">I'm always learning new things and adding them to my tool belt. Currently My main skills ar in in HTML, and CSS, with JavaScript as a close second. I also have
+            a background in traditional programming such as C, C++, and Python.
         </p>
-        <h2 > WHAT I <br> KNOW</h2>
+        <h3 class="display-2"> WHAT I <br> KNOW</h3>
     
     </div>
 
-    <div class="container-md full">
+    <div id ="work-anchor" style="position:relative; top: -150px"> </div>
+    <div class="container-md full" id="work">
 
-        <h2 class="work"> WORK</h2>
+        <h3 class="work display-2"> WORK</h3>
     
     </div>
 
 
-    <div class="container-md d-flex flex-wrap justify-content-between">
+    <div class="container-md work-cont">
 
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
@@ -64,9 +95,9 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Mobile-first Responsive Layout</h5>
+                  <p class="card-text">This Project focused on the princables of responsive mobile first web programming. I used media queries to adjust the layout to various screen sizes.</p>
+                  <p class="card-text"><small class="text-muted">Skills Utilized: Html & CSS</small></p>
                 </div>
               </div>
             </div>
@@ -75,13 +106,13 @@
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <a href="https://remi-banjoko.github.io/techdegree-project-2/" target="_blank"><img src="img/Project 2.png" class="card-img" alt="..."></a>
+                <a href="https://remi-banjoko.github.io/Techdegree-project-3-v2/" target="_blank"><img src="img/Project 3.png" class="card-img" alt="..."></a>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Online Registration Form</h5>
+                  <p class="card-text"> After finishing this project I understood how to build the proper Html skeleton for a form, how to style it, as well as how to use the various user input types.</p>
+                  <p class="card-text"><small class="text-muted">Skills Utilized: Html & CSS</small></p>
                 </div>
               </div>
             </div>
@@ -90,13 +121,13 @@
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <a href="https://remi-banjoko.github.io/techdegree-project-2/" target="_blank"><img src="img/Project 2.png" class="card-img" alt="..."></a>
+                <a href="https://remi-banjoko.github.io/Techdegree-proj-4/" target="_blank"><img src="img/Project 4.png" class="card-img" alt="..."></a>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title"> Web Style Guide</h5>
+                  <p class="card-text">This is where I learned to really flex my css muscles by aquiring a whole new tool, SCSS! This project taught me how to link various scss files together enabling me to code faster and more powerfull CSS.</p>
+                  <p class="card-text"><small class="text-muted">Skills Utilized: Html, CSS, & SCSS</small></p>
                 </div>
               </div>
             </div>
@@ -105,13 +136,13 @@
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <a href="https://remi-banjoko.github.io/techdegree-project-2/" target="_blank"><img src="img/Project 2.png" class="card-img" alt="..."></a>
+                <a href="https://remi-banjoko.github.io/Techdegree-proj-5/" target="_blank"><img src="img/Project 5.png" class="card-img" alt="..."></a>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Interactive Photo Gallery</h5>
+                  <p class="card-text">My JavaScript Journey Started with this project. In finishing I learned how to create my own custom Javascript filter as well as how to use css grid to make a page resonsive without media queries  </p>
+                  <p class="card-text"><small class="text-muted">Skills Utilized: Html, CSS, & JS</small></p>
                 </div>
               </div>
             </div>
@@ -120,13 +151,13 @@
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <a href="https://remi-banjoko.github.io/techdegree-project-2/" target="_blank"><img src="img/Project 2.png" class="card-img" alt="..."></a>
+                <a href="https://remi-banjoko.github.io/Techdegree-proj-6/" target="_blank"><img src="img/Project 6.png" class="card-img" alt="..."></a>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Game Show App</h5>
+                  <p class="card-text"> This is BY FAR my favorite project to date. In creating this fun game I learned how to take and manipulate user input, and events with JS. </p>
+                  <p class="card-text"><small class="text-muted">Skills Utilized: Html, CSS, & JS</small></p>
                 </div>
               </div>
             </div>
@@ -135,38 +166,127 @@
           <div class="card mb-3" style="max-width: 540px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-                <a href="https://remi-banjoko.github.io/techdegree-project-2/" target="_blank"><img src="img/Project 2.png" class="card-img" alt="..."></a>
+                <a href="https://remi-banjoko.github.io/Techdegree-proj-8/" target="_blank"><img src="img/Project 8.png" class="card-img" alt="..."></a>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Employee Directory From an API</h5>
+                  <p class="card-text">I was banging my head on a wall for a looong time with this one but came out a very accomplished JS programer. In this project I learned how to grab data dynamicaly from an API and manipulate it in various ways with a combination of Html, JS, and CSS. </p>
+                  <p class="card-text"><small class="text-muted">Skills Utilized: Html, CSS, & JS</small></p>
                 </div>
               </div>
             </div>
           </div>
+          
+    </div>
+
+    <div id ="contact-anchor" style="position:relative; top: -150px"> </div>
+    <div class="container-md contact-container" id="contact">
+
+        <h3 class="display-3 mobile-block"> SAY<br>HI!!!</h3>
+        <h3 class="display-3 tab-desk-flat"> SAY HI!!!</h3>
+
+        <!-- <p> Here are the various ways you can reach me!</p> -->
+        <div class="mb-3 social-icons">
+        
+        <a href= "https://www.facebook.com/remi.banjoko.9" target="_blank">
+        <button type="button" class="btn btn-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+              </svg>
+        </button>
+        </a> 
+             <a href="https://www.instagram.com/remitheking/" target="_blank"> <button type="button" class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </button>
+                </a>
+
+                <a href= "https://www.linkedin.com/in/remi-banjoko-4a3756212" target="_blank">
+                  <button type="button" class="btn btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg"  width="40" height="40" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                      </svg>
+                  </button>
+                  </a>
+
+                  <button type="button" class="btn btn-secondary" id="modal-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                        <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z"/>
+                      </svg>
+                  </button> 
+
+                  <div class="modal">
+                    <div class="modal-content">
+                      <span class="close-btn">&times;</span>
+                      <p>Contact me</p>
+                     
+                      <form>
+                    
+                        <fieldset >
+                        
+                            <legend><h3 class="display-4" >Shoot Me an Email</h3></legend>
+    
+                            <ul class="contact_form">
+                    
+    
+                                <li> 
+                                
+                                    <label for="mail" class="contact_label">E-mail</label>
+                                    <input type="email" id="mail" name="user_email" placeholder="Type In Email" class="input_box" required>
+    
+                                </li>
+
+
+                            <li>
+                        
+                                <label for="msg" class="msg_label">Message</label>
+                                <textarea id="msg" name="user_message" placeholder="I'm All Ears"></textarea>
+                
+                            </li>
+
+
+                            </ul>
+                        
+                        </fieldset>
+
+                        <ul>
+                        
+                            <li class="button">
+                        
+                                <button type="submit" id="msg-btn"> Send Message </button>
+    
+                            </li>
+    
+                        </ul>
+
+                     </form>
 
 
 
 
 
+                    </div>
+                  </div>
+
+
+
+
+                   <!-- <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading">Well done!</h4>
+                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                    <hr>
+                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                  </div> 
+             -->
+    </div>
 
     </div>
 
-    <div class="container-md left">
-
-        <h2> SAY<br>HI!!!</h2>
-        <p>I am an accomplished developer that has struggled throuhg many trials and tribulations to get here, i am literally bleeding as I type this but 
-            I will push on because at the end of the day the work comes first. :)
-        </p>
-
-    </div> 
-
-
-    <script src="app.js">
-
-
-        
-    </script>
+   
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+   
 </body>
